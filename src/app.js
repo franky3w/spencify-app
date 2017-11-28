@@ -1,4 +1,3 @@
-console.log("allotu");
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -27,8 +26,6 @@ const renderApp = () => {
   }
 };
 
-
-//ReactDOM.render(<h1 >Turlututu</h1>, document.getElementById('app'));
 ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {
